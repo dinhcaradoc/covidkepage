@@ -9,7 +9,6 @@
   body{
     justify-self: center;
     padding-top: 150px;
-    background-image: url(https://ichef.bbci.co.uk/images/ic/720x405/p086qbqx.jpg);
     background-color: rgba(192, 233, 199, 0.5);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
@@ -45,15 +44,18 @@
   }
 
   .alert{
-    background-color:khaki;
-    padding: 5px;
-    padding-top: -20px;
+    background-image: url(https://ichef.bbci.co.uk/images/ic/720x405/p086qbqx.jpg);
+    background-color:rgba(74, 45, 238, 0.8);
+    background-blend-mode: luminosity;
+    color: khaki;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: 900;
+    padding-left: 15px;
     position: relative;
-    left: 5%;
     border: 2px solid red;
     border-radius: 4px;
-    width: fit-content;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1;
   }
 
@@ -118,7 +120,7 @@
   margin-bottom: 15px;
   padding: 10px;
   position: relative;
-  width: 90%;  
+  width: auto;  
 }
 
 .prognosis div p{
@@ -169,7 +171,13 @@
     text-align: center;
     text-shadow: 3px fuchsia inset;
   }
-
+.protips{
+  text-transform: uppercase;
+  color: white;
+  background-color: firebrick;
+  font-weight: 700;
+  padding: 2px;
+}
 
                                 /*Styles for objects*/
 nav {
