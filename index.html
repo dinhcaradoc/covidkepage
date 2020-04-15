@@ -8,76 +8,96 @@
   </head>
   <body>
     <div class="container">
-      <!--Write your content here.-->
+      <div id="overlay">
       <div class="header">
         <h1 id="logo-header">COVID-19 Kenya 411 Page</h1>
         <!--This is a simple resource page to provide information on COVID-19. The page focuses on sharing actionable information that can best drive behavioral changes-->
+        <nav>
+          <ul>
+            <a href="http://www.health.go.ke/"><li>MoH Kenya</li></a>
+            <a href="https://covid19.who.int"><li>World Health Organization</li></a>
+            <a href="https://www.cdc.gov/globalhealth/countries/kenya/default.htm"><li>CDC Kenya</li></a>
+          </ul>
+        </nav>
       </div>
       <div class= "alert">
         <p> Corona Virus is a new respiratory disease that attacks the lungs. It is highly contagious and deadly. Individuals are advised to closely adhere to the recommended preventive measures.</p>
         <p><span class="Important">Government Advisory:</span> Avoid Covid-19. Stay Safe. Stay At Home.</p>
       </div>
+     
       
       <div class="CovidInfo">
-        <div class="about">
-          <h2 id="about">What is Covid-19?</h2>
-          <p id="about"> Covid-19 is a respiratory illness affecting the lungs. It is caused by a new virus, the novel corona virus. The disease is easily spread through contact with droplets from an infected person when this person coughs or sneezes, or sometimes just when they talk. Transmission can also occur through contact with surfaces and objects that have been contaminated. No treatment or vaccine is available for the disease, since it is viral-based. <span id="more"><a href="http://www.health.go.ke/" target="_blank">LEARN MORE</a></span></p>
-          <div id="Covid-facts">
-            <div id="facts-card">
-            <table>Fast Facts About Covid 19
-              <tr>
-                <th>Pathology</th>
-                <th>Causes and Transmission</th>
-                <th>Prevention and treatment</th>
-              </tr>
-              <tr>
-                <td class="column1">A Respiratory illness</td>
-                <td class="column2">Contact with droplets from an infected person through: <ul id="symptomslist"><li>Coughs</li><li>sneezing</li><li>talking or just breathing</li></ul></td>
-                <td class="column3">Virus-based disease</td>
-              </tr>
-              <tr>
-                <td class="column1">Attacks lungs</td>
-                <td class="column2">Contact with contaminated surfaces and objects</td>
-                <td class="column3">No treatment</td>
-              </tr>
-              <tr>
-                <td class="column1">Caused by the <em><strong>Corona Virus</strong></em></td>
-                <td></td>
-                <td class="column3">Vaccine devlopment is in progress</td>
-              </tr>
-            </table>
-            </div>
-            <div id="Covid-vid">
-              <iframe width="360" height="185" src="https://www.youtube.com/embed/1APwq1df6Mw"></iframe>
-            </div>
-            </div>
+        <div class="prognosis"> 
+          <div class="about">
+            <h2 id="about">What is Covid-19?</h2>
+            <p id="about"> Covid-19 is a respiratory illness affecting the lungs. It is caused by a new virus, the novel corona virus. The disease is easily spread through contact with droplets from an infected person when this person coughs or sneezes, or sometimes just when they talk. Transmission can also occur through contact with surfaces and objects that have been contaminated. No treatment or vaccine is available for the disease, since it is viral-based. <span id="more"><a href="http://www.health.go.ke/" target="_blank">LEARN MORE</a></span></p>
+          </div>
+             
+          <div class="symptoms">
+            <h2 id="symptoms">What are the symptoms of Covid-19?</h2>
+            <p id= "symptoms">Since it is a flu, patients sick with Covid-19 exhibit similar symptoms. Nonetheless, there are several key differences. The Covid-specific symptoms are as follows:</p>
+            <ul id="symptoms">
+              <li>Cough</li>
+              <li>Fever</li>
+              <li>Tiredness (Fatigue)</li>
+              <li>Shortness of breath</li>
+            </ul>
           </div>
         
-      <div class="prognosis">  
-        <div class="symptoms">
-          <h2 id="symptoms">What are the symptoms of Covid-19?</h2>
-          <p id= "symptoms">Since it is a flu, patients sick with Covid-19 exhibit similar symptoms. Nonetheless, there are several key differences. The Covid-specific symptoms are as follows:</p>
-          <ul id="symptoms">
-            <li>Cough</li>
-            <li>Fever</li>
-            <li>Tiredness (Fatigue)</li>
-            <li>Shortness of breath</li>
-          </ul>
+          <div class="preventing">
+            <h2 id="preventing">How to Prevent Covid-19</h2>
+            <p id= "preventing">There are number of measures that you can take to stop Covid-19. These measures target a reduction in transmission to stave off the virus. These measures include:</p>
+            <ul id="preventing">
+              <li>Regular hand washing using soap and running water</li>
+              <li>Clean your hands using an alcohol-based sanitizer</li>
+              <li>Keep a personal space of at least 2 meters</li>
+              <li>Avoid close personal contact (hugging, shaking hands, kissing) with people with flu-like symptoms</li>
+              <li>Stay at home and avoid non-essential travel</li>
+            </ul>
+          </div>
         </div>
-        
-        <div class="preventing">
-          <h2 id="preventing">How to Prevent Covid-19</h2>
-          <p id= "preventing">There are number of measures that you can take to stop Covid-19. These measures target a reduction in transmission to stave off the virus. These measures include:</p>
-          <ul id="symptoms">
-            <li>Regular hand washing using soap and running water</li>
-            <li>Clean your hands using an alcohol-based sanitizer</li>
-            <li>Keep a personal space of at least 2 meters</li>
-            <li>Avoid close personal contact (hugging, shaking hands, kissing) with people with flu-like symptoms</li>
-            <li>Stay at home and avoid non-essential travel</li>
-          </ul>
+
+        <div id="Covid-facts">
+          <div id="Covid-vid">
+            <h3>WHO Tips on preventing Covid-19 transmission</h3>
+            <iframe width="360" height="185" src="https://www.youtube.com/embed/1APwq1df6Mw"></iframe>
+          </div>
+          <div id="facts-card">
+          <table>
+            <h3>Fast Facts About Covid 19</h3>
+            <tr>
+              <th>Pathology</th>
+              <th>Causes and Transmission</th>
+              <th>Prevention and treatment</th>
+            </tr>
+            <tr>
+              <td class="column1">A Respiratory illness</td>
+              <td class="column2">Contact with droplets from an infected person through: <ul id="symptomslist"><li>Coughs</li><li>sneezing</li><li>talking or just breathing</li></ul></td>
+              <td class="column3">Virus-based disease</td>
+            </tr>
+            <tr>
+              <td class="column1">Attacks lungs</td>
+              <td class="column2">Contact with contaminated surfaces and objects</td>
+              <td class="column3">No treatment</td>
+            </tr>
+            <tr>
+              <td class="column1">Caused by the <em><strong>Corona Virus</strong></em></td>
+              <td></td>
+              <td class="column3">Vaccine devlopment is in progress</td>
+            </tr>
+          </table>
+          </div>
+          
+          
         </div>
       </div>
+
+      <div>
+        <footer>
+          <p>Kindly ensure you obtain only authentic advice on Corona Virus</p>
+        </footer>
+      </div>
+      </div>
     </div>
-    
   </body>
 </html>
